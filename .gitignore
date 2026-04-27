@@ -1,0 +1,44 @@
+## Node / JS
+node_modules/
+pnpm-lock.yaml
+/.pnpm-store/
+
+## pnpm local store
+.local/share/pnpm/
+
+## Build output
+dist/
+build/
+target/
+artifacts/
+
+## Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+## Python
+venv/
+.venv/
+
+## Cache / logs
+.cache/
+*.log
+
+## Replit / local agent state
+Image-Processor-Rust/.local/
+.local/
+
+## Temporary lists created by the script
+local_all.txt
+local_all_filtered.txt
+local_files.txt
+remote_files.txt
+
+## Secrets (do not commit)
+.env
+*.key
+*.pem
+npmrc
+/.npmrc
